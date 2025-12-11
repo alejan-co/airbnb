@@ -6,7 +6,7 @@ class ExploreScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
+    return SizedBox(
       height: MediaQuery.of(context).size.height,
       child: Column(
         children: <Widget>[
@@ -151,7 +151,7 @@ class ExploreScreen extends StatelessWidget {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: <Widget>[
                         Expanded(
-                          child: Container(
+                          child: SizedBox(
                             width: double.infinity,
                             child: ClipRRect(
                               borderRadius: BorderRadius.only(
