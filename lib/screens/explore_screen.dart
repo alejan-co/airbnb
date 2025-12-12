@@ -109,7 +109,7 @@ class ExploreScreen extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: <Widget>[
           Text(
-            "Bienvenido al Folladero",
+            "Bienvenido al Sun-Set",
             style: TextStyle(
               fontSize: 26,
               fontWeight: FontWeight.bold,

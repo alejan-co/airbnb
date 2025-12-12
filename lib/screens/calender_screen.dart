@@ -15,14 +15,16 @@ class _CalenderScreenState extends State<CalenderScreen> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: EdgeInsets.all(12),
+      padding: EdgeInsets.all(20),
+
       child: Column(
         children: <Widget>[
           Container(
-            margin: EdgeInsets.only(bottom: 12),
+            margin: EdgeInsets.only(bottom: 20),
+            padding: EdgeInsets.only(left: 250),
             child: TextField(
               decoration: InputDecoration(
-                hintText: "prueba",
+                hintText: " 1,551 por 2 noches",
                 border: OutlineInputBorder(),
               ),
             ),
@@ -98,7 +100,7 @@ class _CalenderScreenState extends State<CalenderScreen> {
                     );
                   }
                 },
-                child: Text('Seleccionar rango'),
+                child: Text('Seleccionar rango de estadia'),
               ),
             ],
           ),
